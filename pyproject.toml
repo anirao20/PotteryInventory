@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "backend"
+version = "1.0.0"
+description = "First build of Pottery Inventory backend."
+dependencies = [
+    "flask",
+    "mysql-connector-python"
+]

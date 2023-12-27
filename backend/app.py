@@ -4,8 +4,8 @@ import mysql.connector
 app = Flask(__name__)
 
 
-cnx = mysql.connector.connect(user='potter2',
-                              password='RemoteConnect',
+cnx = mysql.connector.connect(user='',
+                              password='',
                               host='ec2-52-53-124-242.us-west-1.compute.amazonaws.com',
                               port=3306,
                               database='PotteryInventory')
